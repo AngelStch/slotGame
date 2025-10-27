@@ -1,0 +1,24 @@
+{
+  "name": "slot-backend",
+  "version": "1.0.0",
+  "description": "Simple slot machine backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "simulate": "ts-node src/simulate.ts"
+  },
+  "author": "Angel Stoichev",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^5.4.5"
+  }
+}
