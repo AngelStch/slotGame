@@ -1,3 +1,6 @@
+# Slot Machine Backend – Dreamshot Challenge
+
+
 Slot Machine Backend – Dreamshot Challenge
 This is a TypeScript/Node.js implementation of a classic 5-reel, 3-row slot machine. It simulates spinning, paylines, win evaluation, and balance updates — all without any database. Built as a backend-only solution for the Dreamshot technical challenge.
 
